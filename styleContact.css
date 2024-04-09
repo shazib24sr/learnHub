@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: rgb(59,108,255);
+    font-size: 2.5rem;
+    font-weight: 700;
+    
+}
+h2{
+    color: rgb(59,108,255);
+}
+span{
+    font-size: 0.9rem;
+    color: #757373;
+}
+h6{
+    font-size: 1.1rem;
+    color: rgb(46, 46, 59);
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1vw  8vw;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+}
+nav img{
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+nav .navigation{
+    padding-top: 0.9rem;
+}
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(59,108,255);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+nav .navigation ul li a:hover{
+    color: #fdc938;
+}
+#home{
+    background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url(images/contactbg1.jfif);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#home h2{
+    color: white;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+#home p{
+    width: 50%;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    color: rgb(59,108,255);
+    padding: 20px 0;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact-form {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#about{
+    display: flex;
+    justify-content: space-around;
+}
+.map{
+    padding: 2vw;
+}
+#about h3{
+    padding-top:10vw;
+}
+.about-us{
+    padding-left: 10vw;
+}
+#about i{
+    padding:1vw 6vw 0 0vw;
+    font-size: 4rem;
+    cursor: pointer;
+}
+#about i:hover{
+    color: #fdc938;
+}
+footer{
+    margin-top: 50px;
+    padding: 8vw;
+    background-color:  rgb(59,108,255);
+    height:60rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer .footer-col{
+    padding-bottom: 40px;
+}
+footer h3{
+    padding-bottom: 20px;
+}
+footer li{
+    list-style: none;
+    padding: 5px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+footer li:hover{
+    color: white;
+}
+footer .subscribe{
+    margin-top: 20px;
+}
+footer input{
+    width: 250px;
+    padding: 15px 12px;
+    background: rgb(21,21,100);
+    border: none;
+    color: white;
+}
+footer input::placeholder{
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px; 
+    margin-left: 10px;
+}
+footer a.yellow{   
+    color: white;
+    background-color: #fdc938; 
+    transition: 0.3s ease;
+}
+footer a.yellow:hover{   
+    color: #fdc938;
+    background-color: white; 
+}
